@@ -1,0 +1,23 @@
+{
+	"name": "send-sms",
+	"version": "1.0.0",
+	"description": "Envio de SMS com Node.js",
+	"main": "app.js",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/lucassdr/send-sms-with-node"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": {
+		"name": "Lucas Sodré",
+		"email": "lucassdr@outlook.com.br",
+		"url": "https://www.lucassdr.com.br"
+	},
+	"license": "ISC",
+	"dependencies": {
+		"dotenv": "^8.2.0",
+		"twilio": "^3.39.2"
+	}
+}
